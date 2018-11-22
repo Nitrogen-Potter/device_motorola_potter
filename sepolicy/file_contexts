@@ -55,6 +55,8 @@
 /persist/factory/audio(/.*)?                             u:object_r:persist_audio_file:s0
 /persist/\.bt_nv\.bin                                    u:object_r:bluetooth_data_file:s0
 
+/persist/battery(/.*)?                                   u:object_r:persist_battery_file:s0
+
 /data/wapi_certificate(/.*)?                             u:object_r:wapi_supplicant_data_file:s0
 
 /data/misc/akmd(/.*)?                                    u:object_r:akmd_data_file:s0
@@ -151,3 +153,4 @@
 
 # Usb hal
 /(vendor|system/vendor)/bin/hw/android\.hardware\.usb@1\.0-service\.potter       u:object_r:hal_usb_default_exec:s0
+
