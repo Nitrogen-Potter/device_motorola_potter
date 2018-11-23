@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_potter.mk
+    $(LOCAL_DIR)/nitrogen_potter.mk
